@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "kf3PhF9dvhhAKLVf1e2/2RTL88IW3xj71aDJ7A4ldiXa0+o+zkLFYEEPjtlK2O3gdcXV1T47z8bxHrPmkWWayg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\quh\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\5.0.6\\microsoft.aspnetcore.authentication.negotiate.5.0.6.nupkg.sha512",
+    "C:\\Users\\quh\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\5.0.6\\microsoft.aspnetcore.connections.abstractions.5.0.6.nupkg.sha512",
+    "C:\\Users\\quh\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.6\\microsoft.aspnetcore.http.features.5.0.6.nupkg.sha512",
+    "C:\\Users\\quh\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\quh\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\quh\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0\\system.directoryservices.protocols.5.0.0.nupkg.sha512",
+    "C:\\Users\\quh\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\quh\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

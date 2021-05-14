@@ -9,3 +9,4 @@ C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.
 C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.dll
 C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\ref\apidemo.core.dll
 C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.pdb
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.csprojAssemblyReference.cache
