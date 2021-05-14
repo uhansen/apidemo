@@ -1,4 +1,5 @@
 ﻿using apidemo.core.models;
+using apidemo.core.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -12,29 +13,25 @@ namespace apidemo.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
+        IWeatherForecastService _service;
+                
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(IWeatherForecastService service,ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            _service = service;
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
-        {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
-        }
+        public IActionResult Get() => Ok(_service.GetForeCastSeries());
+        
+
+        [HttpGet("{Id}")]
+        public IActionResult GetById(Guid Id) => Ok(_service.GetForecast(Id));
+        
+
+        [HttpPost]
+        public void AddForeCast(WeatherForecast forecast) => _service.Add(forecast);
     }
 }

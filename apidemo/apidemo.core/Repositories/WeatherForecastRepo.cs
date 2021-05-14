@@ -25,6 +25,9 @@ namespace apidemo.core.Repositories
 
         public IEnumerable<WeatherForecast> GetAll()
         {
+            if (dataSource.Values.Count == 0)
+                return new List<WeatherForecast>();
+
             return dataSource.Values.ToList();
         }
 
@@ -39,6 +42,7 @@ namespace apidemo.core.Repositories
 
         public void Save(WeatherForecast forecast)
         {
+            forecast.Id = Guid.NewGuid();
             dataSource.Add(forecast.Id, forecast);
         }
 
