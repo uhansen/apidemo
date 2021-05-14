@@ -75,6 +75,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "apidemo.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/apidemo.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/apidemo.core.dll": {}
+        }
       }
     }
   },
@@ -185,33 +195,41 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "apidemo.core/1.0.0": {
+      "type": "project",
+      "path": "../apidemo.core/apidemo.core.csproj",
+      "msbuildProject": "../apidemo.core/apidemo.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "apidemo.core >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\uhans\\.nuget\\packages\\": {},
+    "C:\\Users\\quh\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\uhans\\source\\repos\\apidemo\\apidemo\\apidemo\\apidemo.csproj",
+      "projectUniqueName": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo\\apidemo.csproj",
       "projectName": "apidemo",
-      "projectPath": "C:\\Users\\uhans\\source\\repos\\apidemo\\apidemo\\apidemo\\apidemo.csproj",
-      "packagesPath": "C:\\Users\\uhans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\uhans\\source\\repos\\apidemo\\apidemo\\apidemo\\obj\\",
+      "projectPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo\\apidemo.csproj",
+      "packagesPath": "C:\\Users\\quh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\uhans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\quh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -226,7 +244,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
+              "projectPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -262,7 +284,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

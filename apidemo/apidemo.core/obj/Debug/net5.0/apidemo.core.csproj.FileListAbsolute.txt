@@ -1,0 +1,11 @@
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\bin\Debug\net5.0\apidemo.core.deps.json
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\bin\Debug\net5.0\apidemo.core.dll
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\bin\Debug\net5.0\ref\apidemo.core.dll
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\bin\Debug\net5.0\apidemo.core.pdb
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.AssemblyInfoInputs.cache
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.AssemblyInfo.cs
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.csproj.CoreCompileInputs.cache
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.dll
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\ref\apidemo.core.dll
+C:\Users\quh\source\repos\apidemo\apidemo\apidemo.core\obj\Debug\net5.0\apidemo.core.pdb

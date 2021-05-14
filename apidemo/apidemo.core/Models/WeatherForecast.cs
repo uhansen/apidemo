@@ -1,9 +1,13 @@
 using System;
 
-namespace apidemo
+namespace apidemo.core.models
 {
     public class WeatherForecast
     {
+        public double PosX { get; set; }
+        public double PosY { get; set; }
+        public double AirPressure { get; set; }
+        public Guid Id { get; set; }
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
