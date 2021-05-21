@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace apidemo.core.Gateways
 {
-    public class AirpressureGateway : IAirpressure
+    public class AirpressureGateway : IAirpressureGateway
     {
         public double GetAirPressureBasesOnPosition(double x, double y)
         {

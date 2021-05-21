@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj": {}
+    "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
+    "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj",
+        "projectUniqueName": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj",
         "projectName": "apidemo.core",
-        "projectPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj",
+        "projectPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj",
         "packagesPath": "C:\\Users\\quh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\obj\\",
+        "outputPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj": {
+    "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj",
+        "projectUniqueName": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj",
         "projectName": "appdemoSecure",
-        "projectPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj",
+        "projectPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\appdemoSecure\\appdemoSecure.csproj",
         "packagesPath": "C:\\Users\\quh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\appdemoSecure\\obj\\",
+        "outputPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\appdemoSecure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -96,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
-                "projectPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj"
+              "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
+                "projectPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj"
               }
             }
           }

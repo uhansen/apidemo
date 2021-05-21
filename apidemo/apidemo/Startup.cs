@@ -37,7 +37,7 @@ namespace apidemo
             });
 
             services.AddTransient<IWeatherForecastRepository, WeatherForecastRepo>();
-            services.AddTransient<IAirpressure, AirpressureGateway>();
+            services.AddTransient<IAirpressureGateway, AirpressureGateway>();
             services.AddTransient<IWeatherForecastService, WeatherForecastService>();
     
 

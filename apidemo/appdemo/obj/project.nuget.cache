@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MnATT8YmhhKLdfmv/PMfe0Lf0tuWYTvA+KHxY9qbCjtFllFZOFzgK+G6hD1MPxjWrnb6D8XD02GmtXfZ9H2gxA==",
+  "dgSpecHash": "UDfAB0NUrZPfIBxpXTr/3nsvNqNW/u7lq4dwRqFk72uPBwRHGGb5S3oTLrAaLn3J8jCN/V2togtl6JA61KnNfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\appdemo\\appdemo.csproj",
+  "projectFilePath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\appdemo\\appdemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quh\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\quh\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

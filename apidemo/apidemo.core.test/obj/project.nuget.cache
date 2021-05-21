@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MH7VUgu0hN6UfHIapLYIG0AA4yrVX/VJAyn/k4Y7YFbWj+oPL4ukRSqXMru45q9LVsUkgfo0TGXUrQzsgIFEpg==",
+  "dgSpecHash": "CiE/AuRPTLyIhNLgt3tRxA4b3d35u6tMu4WogSXTES/F8LGySpEGRXByAGWHluKjFJw28Vcv5T6rLu8i52isBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj",
+  "projectFilePath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quh\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\quh\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

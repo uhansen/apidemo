@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.31025.218
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apidemo", "apidemo\apidemo.csproj", "{7F5989A7-7BEE-4835-B599-BCEB4FDCCD8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apidemo.core", "apidemo.core\apidemo.core.csproj", "{C994C4E1-F00C-4BE3-8AA7-7C57961FE11B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apidemo.core", "apidemo.core\apidemo.core.csproj", "{C994C4E1-F00C-4BE3-8AA7-7C57961FE11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apidemo.core.test", "apidemo.core.test\apidemo.core.test.csproj", "{EB36D866-4B8B-4DE2-B573-5C2FF98CC6AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apidemo.core.test", "apidemo.core.test\apidemo.core.test.csproj", "{EB36D866-4B8B-4DE2-B573-5C2FF98CC6AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appdemo", "appdemo\appdemo.csproj", "{2620FDC9-AFE0-4DF5-9921-793FB2B4E8AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appdemo", "appdemo\appdemo.csproj", "{2620FDC9-AFE0-4DF5-9921-793FB2B4E8AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appdemoSecure", "appdemoSecure\appdemoSecure.csproj", "{DD65F7FF-F11E-460C-843C-F1BBEFA32847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appdemoSecure", "appdemoSecure\appdemoSecure.csproj", "{DD65F7FF-F11E-460C-843C-F1BBEFA32847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appBlazor", "appBlazor\appBlazor.csproj", "{B10797C3-19AF-4172-90C3-B34F861764E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DD65F7FF-F11E-460C-843C-F1BBEFA32847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD65F7FF-F11E-460C-843C-F1BBEFA32847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD65F7FF-F11E-460C-843C-F1BBEFA32847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B10797C3-19AF-4172-90C3-B34F861764E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10797C3-19AF-4172-90C3-B34F861764E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10797C3-19AF-4172-90C3-B34F861764E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10797C3-19AF-4172-90C3-B34F861764E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

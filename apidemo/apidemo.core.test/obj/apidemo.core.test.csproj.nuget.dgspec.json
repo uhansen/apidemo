@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj": {}
+    "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj": {
+    "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj",
+        "projectUniqueName": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj",
         "projectName": "apidemo.core.test",
-        "projectPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj",
+        "projectPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core.test\\apidemo.core.test.csproj",
         "packagesPath": "C:\\Users\\quh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core.test\\obj\\",
+        "outputPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core.test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
-                "projectPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj"
+              "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
+                "projectPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
+    "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj",
+        "projectUniqueName": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj",
         "projectName": "apidemo.core",
-        "projectPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj",
+        "projectPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\apidemo.core.csproj",
         "packagesPath": "C:\\Users\\quh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quh\\source\\repos\\apidemo\\apidemo\\apidemo.core\\obj\\",
+        "outputPath": "C:\\Users\\quh\\Source\\Repos\\apidemo\\apidemo\\apidemo.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -12,8 +12,8 @@ namespace apidemo.core.Services
     public class WeatherForecastService : IWeatherForecastService
     {
         IWeatherForecastRepository _repository;
-        IAirpressure _airpressure;
-        public WeatherForecastService(IWeatherForecastRepository repository, IAirpressure airpressure)
+        IAirpressureGateway _airpressure;
+        public WeatherForecastService(IWeatherForecastRepository repository, IAirpressureGateway airpressure)
         {
             _repository = repository;
             _airpressure = airpressure;
@@ -35,7 +35,7 @@ namespace apidemo.core.Services
             return _repository.Read(Id);
         }
 
-        public IEnumerable<WeatherForecast> GetForeCastSeries()
+        public async Task<IEnumerable<WeatherForecast>> GetForeCastSeries()
         {
             return _repository.GetAll();
         }

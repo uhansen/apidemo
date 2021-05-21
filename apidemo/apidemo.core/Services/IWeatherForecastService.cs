@@ -10,7 +10,7 @@ namespace apidemo.core.Services
     public interface IWeatherForecastService
     {
         void Add(WeatherForecast foreCast);
-        IEnumerable<WeatherForecast> GetForeCastSeries();
+        Task<IEnumerable<WeatherForecast>> GetForeCastSeries();
         WeatherForecast GetForecast(Guid Id);
     }
 }

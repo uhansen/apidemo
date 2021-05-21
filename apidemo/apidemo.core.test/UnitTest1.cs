@@ -8,7 +8,7 @@ using Xunit;
 
 namespace apidemo.core.test
 {
-    public class MockAirpressuerServiceHigh : IAirpressure
+    public class MockAirpressureServiceHigh : IAirpressureGateway
     {
         public double GetAirPressureBasesOnPosition(double x, double y)
         {
@@ -16,7 +16,7 @@ namespace apidemo.core.test
         }
     }
 
-    public class MockAirpressuerServiceLow : IAirpressure
+    public class MockAirpressuerServiceLow : IAirpressureGateway
     {
         public double GetAirPressureBasesOnPosition(double x, double y)
         {
@@ -68,7 +68,7 @@ namespace apidemo.core.test
         public void TestAirPressureHigh()
         {
 
-            var wfs = new WeatherForecastService(new MockWeatherForecastRepo(), new MockAirpressuerServiceHigh());
+            var wfs = new WeatherForecastService(new MockWeatherForecastRepo(), new MockAirpressureServiceHigh());
             var wf = new WeatherForecast()
             {
                 Id = Guid.NewGuid(),
